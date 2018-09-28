@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2006.12.21 21:36:37.000.pas,C:\Program Files\Borland\BDS\4.0\projects\Unit5.pas=C:\Program Files\Borland\BDS\4.0\projects\enumerate_callback\main.pas</Transaction>
+    <Transaction>2006.12.21 21:36:37.000.dfm,C:\Program Files\Borland\BDS\4.0\projects\Unit5.dfm=C:\Program Files\Borland\BDS\4.0\projects\enumerate_callback\main.dfm</Transaction>
+    <Transaction>2006.12.21 21:36:46.078.bdsproj,C:\Program Files\Borland\BDS\4.0\projects\Project1.bdsproj=C:\Program Files\Borland\BDS\4.0\projects\enumerate_callback\EnumCallbackProject.bdsproj</Transaction>
+  </Transactions>
+</BorlandProject>

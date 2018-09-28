@@ -1,0 +1,20 @@
+http://www.delphipages.com/forum/showthread.php?t=183366
+
+var
+TextLen : LongInt;
+begin
+Result := True;
+TextLen := SendMessage (wHandle, WM_GETTEXTLENGTH, 0, 0);
+SendMessage (wHandle, WM_GETTEXT, TextLen + 1, LongInt (@Buffer));
+GetClassName (wHandle, Clss, SizeOf (Clss) - 1);
+if IsWindowVisible (wHandle) then
+begin
+GetClassName (wHandle, Clss, SizeOf (Clss) - 1);
+if (StrLen (Dest) > 0) then
+begin
+frmEnumerate.ListBox1.Items.Add(IntToStr(Handle) + ';' + Clss + ';' + Dest);
+Item := frmEnumerate.ListView.Items.Add;
+Item.Caption := IntToStr (wHandle);
+Item.SubItems.Add (Clss);
+Item.SubItems.Add (Dest);
+end;

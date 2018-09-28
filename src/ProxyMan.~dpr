@@ -1,0 +1,14 @@
+program ProxyMan;
+
+uses
+  Forms,
+  UMainForm in 'UMainForm.pas' {FrmProxyManager};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.Title := 'Proxy Task Manager';
+  Application.CreateForm(TFrmProxyManager, FrmProxyManager);
+  Application.Run;
+end.
